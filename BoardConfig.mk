@@ -51,3 +51,5 @@ USE_CAMERA_STUB := true
 
 BOARD_SEPOLICY_DIRS := \
     device/brcm/rpi3/sepolicy
+
+ANDROID_JACK_VM_ARGS := -Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4096m
